@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-left: .5rem;
+    color: red;
+}
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: .5rem;
+}
+.text{
+    text-align: justify;
+    font-size: 1rem;
+    padding-bottom: .5rem;
+}
+.endpoint{
+    padding-left: 1rem;
+}
+.endpoint > a{
+    text-decoration: none;
+}
+.paragrafo{
+    padding: .5rem;
+}
+.content-text{
+   font-size: .9rem;
+}
+.json{
+    padding: 2rem;
+}
+.content-text > a{
+    text-decoration: none;
+}

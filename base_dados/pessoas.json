@@ -1,0 +1,146 @@
+[
+    {
+        "id_user": 0,
+        "nome": "Jo\u00e3o Pedro Peixoto",
+        "email": "Jo\u00e3o_Pedro_Peixoto@example.com",
+        "senha": "Jo\u00e3o_Pedro"
+    },
+    {
+        "id_user": 1,
+        "nome": "Lucas Gabriel Barros",
+        "email": "Lucas_Gabriel_Barros@example.com",
+        "senha": "Lucas_Gabriel"
+    },
+    {
+        "id_user": 2,
+        "nome": "Maysa Cavalcanti",
+        "email": "Maysa_Cavalcanti@example.com",
+        "senha": "Maysa_Cavalcanti"
+    },
+    {
+        "id_user": 3,
+        "nome": "Ana Luiza Nascimento",
+        "email": "Ana_Luiza_Nascimento@example.com",
+        "senha": "Ana_Luiza"
+    },
+    {
+        "id_user": 4,
+        "nome": "Kevin Freitas",
+        "email": "Kevin_Freitas@example.com",
+        "senha": "Kevin_Freitas"
+    },
+    {
+        "id_user": 5,
+        "nome": "Benjamin Cardoso",
+        "email": "Benjamin_Cardoso@example.com",
+        "senha": "Benjamin_Cardoso"
+    },
+    {
+        "id_user": 6,
+        "nome": "Ana Carolina Teixeira",
+        "email": "Ana_Carolina_Teixeira@example.com",
+        "senha": "Ana_Carolina"
+    },
+    {
+        "id_user": 7,
+        "nome": "Al\u00edcia Ramos",
+        "email": "Al\u00edcia_Ramos@example.com",
+        "senha": "Al\u00edcia_Ramos"
+    },
+    {
+        "id_user": 8,
+        "nome": "Lara Foga\u00e7a",
+        "email": "Lara_Foga\u00e7a@example.com",
+        "senha": "Lara_Foga\u00e7a"
+    },
+    {
+        "id_user": 9,
+        "nome": "La\u00eds Alves",
+        "email": "La\u00eds_Alves@example.com",
+        "senha": "La\u00eds_Alves"
+    },
+    {
+        "id_user": 10,
+        "nome": "Marina das Neves",
+        "email": "Marina_das_Neves@example.com",
+        "senha": "Marina_das"
+    },
+    {
+        "id_user": 11,
+        "nome": "Maria Eduarda Caldeira",
+        "email": "Maria_Eduarda_Caldeira@example.com",
+        "senha": "Maria_Eduarda"
+    },
+    {
+        "id_user": 12,
+        "nome": "Luiz Miguel Silva",
+        "email": "Luiz_Miguel_Silva@example.com",
+        "senha": "Luiz_Miguel"
+    },
+    {
+        "id_user": 13,
+        "nome": "Nathan Porto",
+        "email": "Nathan_Porto@example.com",
+        "senha": "Nathan_Porto"
+    },
+    {
+        "id_user": 14,
+        "nome": "Isis Porto",
+        "email": "Isis_Porto@example.com",
+        "senha": "Isis_Porto"
+    },
+    {
+        "id_user": 15,
+        "nome": "Milena Foga\u00e7a",
+        "email": "Milena_Foga\u00e7a@example.com",
+        "senha": "Milena_Foga\u00e7a"
+    },
+    {
+        "id_user": 16,
+        "nome": "Thomas Martins",
+        "email": "Thomas_Martins@example.com",
+        "senha": "Thomas_Martins"
+    },
+    {
+        "id_user": 17,
+        "nome": "Maria Alice Melo",
+        "email": "Maria_Alice_Melo@example.com",
+        "senha": "Maria_Alice"
+    },
+    {
+        "id_user": 18,
+        "nome": "Lucca Castro",
+        "email": "Lucca_Castro@example.com",
+        "senha": "Lucca_Castro"
+    },
+    {
+        "id_user": 19,
+        "nome": "Jo\u00e3o Pedro Melo",
+        "email": "Jo\u00e3o_Pedro_Melo@example.com",
+        "senha": "Jo\u00e3o_Pedro"
+    },
+    {
+        "id_user": 20,
+        "nome": "Murilo Ferreira",
+        "email": "Murilo_Ferreira@example.com",
+        "senha": "Murilo_Ferreira"
+    },
+    {
+        "id_user": 21,
+        "nome": "Bernardo Pinto",
+        "email": "Bernardo_Pinto@example.com",
+        "senha": "Bernardo_Pinto"
+    },
+    {
+        "id_user": 22,
+        "nome": "Isis Ara\u00fajo",
+        "email": "Isis_Ara\u00fajo@example.com",
+        "senha": "Isis_Ara\u00fajo"
+    },
+    {
+        "id_user": 23,
+        "nome": "Ana Clara Ramos",
+        "email": "Ana_Clara_Ramos@example.com",
+        "senha": "Ana_Clara"
+    }
+]

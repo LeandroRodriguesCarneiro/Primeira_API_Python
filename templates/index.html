@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira API CRUD</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_index.css') }}">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">Minha primeira API CRUD</h1>
+    <h3 class="text">Essa é uma API para testar e compreender como criar uma API com principio de um CRUD usando como base de dados um arquivo JSON
+    <br>Os endpoints:</h3>
+    <h4 class="endpoint"><a href="/todos">/todos</a></h4>
+    <p class="paragrafo"></p>
+        <h5 class="content-text">Esse endpoint é do metodo GET e  retorna todos os dados cadastrados na base de dados.</h5>
+    <p class="paragrafo"></p>
+    <h4 class="endpoint"><a href="/adicionar-usuario">/adicionar-usuario</a><h4>
+    <p class="paragrafo"></p>
+        <h5 class="content-text">Esse endpoint é  do metodo POST e adiciona um usuarioa base de dados dave enviar como body na requisição e deve estar em JSON:</h5>
+            <h4 class="json">{<br />
+                "nome": " ",<br />
+                "email": "  ",<br >
+                "senha": "  "<br />
+            }</h4><br>
+            <h5 class="content-text">Os estatus de retorno possivel são 200 OK o 400 BAD REQUEST</h5>
+    <p class="paragrafo"></p>
+    <h4 class="endpoint"><a href="/consulta-especifica">/consulta-especifica</a></h4>
+    <p class="paragrafo"></p>
+        <h5 class="content-text">Esse endpoint é do metodo GET e precisa de argumentos na URL para a requisição os argumentos são:
+            <br>typeSearch: id_user , nome , email. Esses são as opções de busca.
+            <br>data: aqui é a informação que sera usada para filtrar.
+            <br>Exemplo: <a href="http://127.0.0.1:5000/consulta-especifica?typeSearch=id_user&data=1">http://127.0.0.1:5000/consulta-especifica?typeSearch=id_user&data=1</a>
+            <br>Os estatus de retorno possivel são 200 OK o 400 BAD REQUEST.
+        </h5>
+    <p class="paragrafo"></p>
+    <h4 class="endpoint"><a href="/alterar-user">/alterar-user</a></h4>
+    <p class="paragrafo"></p>
+        <h5 class="content-text">
+            Esse endpoint é do metodo POST e precisa de argumentos na URL para a requisição os argumentos são:
+            <br>typeSearch: id_user , nome , email. Esses são as opções de busca.
+            <br>data: aqui é a informação que sera usada para filtrar.
+            <br>Exemplo: <a href="http://127.0.0.1:5000/alterar-user?typeSearch=id_user&data=1">http://127.0.0.1:5000/alterar-user?typeSearch=id_user&data=1</a>
+            <br>E também precisa de um body com um JSON contendo os novos dodos:
+            <h4 class="json">
+                {<br />
+                "nome": " ",<br />
+                "email": "  ",<br />
+                "senha": "  "<br />
+                }</h4>
+            <br>
+            <h5 class="content-text">Os estatus de retorno possivel são 200 OK o 400 BAD REQUEST</h5>
+        </h5>  
+    <p class="paragrafo"> </p>     
+    <h4 class="endpoint"><a href="/apaga-user">/apaga-user</a></h4>
+    <p class="paragrafo"></p>
+        <h5 class="content-text">
+            Esse endpoint é do metodo DELETE e precisa de argumentos na URL para a requisição os argumentos são:
+            <br>typeSearch: id_user , nome , email. Esses são as opções de busca.
+            <br>data: aqui é a informação que sera usada para filtrar.
+            <br>Exemplo: <a href="http://127.0.0.1:5000/apaga-user?typeSearch=id_user&data=1">http://127.0.0.1:5000/apaga-user?typeSearch=id_user&data=1</a>
+            <br>Os estatus de retorno possivel são 200 OK o 400 BAD REQUEST
+        </h5>
+</body>
+</html>
