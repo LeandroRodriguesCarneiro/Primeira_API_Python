@@ -3,10 +3,12 @@ Primeira API desenvolvida busca ser um sistema CRUD básico onde utiliza de banc
 Estou deixando uma base de dados para testes, mas também possui uma função que alimentada por uma lista com nomes cria o arquivo utilizado como base de dados.
 
 Para fazer uso deste programa inicialmente utilize o seguinte comando para criação de ambiente virtual. 
+
  --> python -m venv venv
 
 Ativar o ambiente virtual e utilizar o seguinte comando para instalar as bibliotecas necessárias. 
- --> pip install -r requirements.txt
+
+--> pip install -r requirements.txt
 
 Versões dos recursos utilizados: 
 - Python 3.11.1;
